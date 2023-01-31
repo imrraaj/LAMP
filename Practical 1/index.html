@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical - 1</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>
+            Profile Page
+        </h1>
+    </header>
+
+    <form id="form">
+
+        <div>
+            <label for="FirstName">
+                First Name:
+                <input value="Raj" type="text" id="FirstName" required>
+            </label>
+        </div>
+
+
+        <div>
+            <label for="LastName">
+                Last Name:
+                <input value="Patel" type="text" id="LastName" required>
+            </label>
+        </div>
+
+
+        <div>
+            <label for="Age">
+                Age:
+                <input type="number" id="Age" value="18" required>
+            </label>
+        </div>
+
+        <div>
+            <label for="Contact">
+                Contact:
+                <input value="9726565430" type="number" id="Contact" required />
+
+            </label>
+        </div>
+
+
+        <div>
+            <label for="Email">
+                Email:
+                <input value="rajpatel@gmail.com" type="email" id="Email" minlength="5" required>
+            </label>
+        </div>
+
+
+
+        <div>
+            <div id="Gender" class="gender_label">
+                <p>Gender:</p>
+                <label for="male" name="Gender">
+                    <input type="radio" value="male" id="male" name="Gender" checked>
+                    Male
+                </label>
+
+                <label for="female">
+                    <input type="radio" value="female" id="female" name="Gender">
+                    Female
+                </label>
+                <label for="others">
+                    <input type="radio" value="others" id="others" name="Gender">
+                    Others
+                </label>
+            </div>
+
+        </div>
+
+        <div>
+            <label for="Education">
+                Education:
+                <select name="dducation" id="Education">
+                    <option value="B.Tech">B.Tech</option>
+                    <option value="M.Tech">M.Tech</option>
+                    <option value="PhD">PhD</option>
+                </select>
+            </label>
+        </div>
+        <div>
+            <label for="EducationDescription">
+                Education:
+                <textarea id="EducationDescription" required>
+                    B.Tech from Institute of Technology, Nirma University, Ahmedabad.
+                    Secondary from M.K.patel highschool, Bopal
+                </textarea>
+            </label>
+        </div>
+
+
+
+        <div>
+            <label for="Address">
+                Address:
+                <textarea id="Address" required>
+                    19, Meera Madhav Residency, Bopal-Ghuma road, Bopal, Ahmedabad, 380058
+                </textarea>
+            </label>
+        </div>
+        <div>
+            <label for="Co-Curricular">
+                Co-Curricular:
+                <textarea id="Co-Curricular" required>
+                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,
+                    by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of
+                    Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the
+                </textarea>
+            </label>
+        </div>
+
+        <div>
+            <button>Submit</button>
+        </div>
+    </form>
+    <script src="./index.js"></script>
+</body>
+
+</html>
